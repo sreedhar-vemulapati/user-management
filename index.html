@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+
+  </head>
+  <body>
+    <div class="main">
+      <div class="container">
+        <h1 for="">Enroll Users</h1>
+        <input id="name" type="text" placeholder="Enter user-name"  />
+        <input id="email" type="email" placeholder="Enter user-email" />
+  
+       <div class="boxes">
+        <button onclick="addUser()" id="btn" class="btn">add user</button> <button class="alert confirm" id="alert">email already exist !</button>
+        <audio id="audioAlert" src="alert.mp3"></audio>
+       </div>
+      </div>
+      <div class="user-container" id="userContainer"></div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
